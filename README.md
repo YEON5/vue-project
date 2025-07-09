@@ -17,7 +17,6 @@ pnpm install
 
 ## development server
 
-
 ```bash
 # run server
 pnpm run dev
@@ -25,3 +24,27 @@ pnpm run dev
 Start the development server on `http://localhost:3000`:
 ```
 
+
+## branch
+
+```bash
+# branch main
+git branch -m master main
+```
+
+
+## 폴더구조
+
+```bash
+pljec-frontend/
+  ├─ assets/
+  │    └─ fonts
+  │    └─ images
+  │    └─ scss
+  ├─ components
+  ├─ layouts
+  ├─ publish/
+  │    └─ components
+  │    └─ layouts
+  │    └─ pages
+```

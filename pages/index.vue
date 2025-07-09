@@ -2,9 +2,16 @@
   <h1>dheihdihei</h1>
 </template>
 
+
 <script setup>
-// 비워두어도 됩니다.
+
 </script>
+
+<!-- 
+<script setup lang="ts">
+// await navigateTo('/publish')
+</script>
+-->
 
 <style>
 
