@@ -1,10 +1,18 @@
 <template>
+
   <h1>template</h1>
 </template>
 
+
 <script setup>
-// 비워두어도 됩니다.
+import { ref } from 'vue'
+
+const selected = ref(0)
+
+definePageMeta({ header: { contentTitle: '헤더타이틀', rightBtn: { icon: IMenu, click: () => {} } }})
+definePageMeta({ layout: 'web', webHeader: { contentTitle: '헤더타이틀', rightBtn: { icon: IMenu, click: () => {} } }})
 </script>
+
 
 <style>
 
